@@ -6,7 +6,7 @@ stage('Build')
 {
 steps{
 echo "Building the Code.........."
-sh ${mvnHome}/bin/mvn clean install"
+sh ${Maven home}/bin/mvn clean install"
 }
 }
 stage('Test') 
